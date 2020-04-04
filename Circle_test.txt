@@ -1,0 +1,19 @@
+import math
+
+class circle:
+    def __init__(self):
+        self.radius = input("반지름을 입력하세요:")
+        
+    def calcPerimeter(self):
+        
+         print(2*math.pi*float(self.radius))
+        
+    def calcArea(self):
+        print((int(self.radius))**2*math.pi)
+        
+circle = circle()
+
+circle.calcPerimeter()
+
+circle.calcArea()
+        
